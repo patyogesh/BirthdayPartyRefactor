@@ -3,7 +3,7 @@ package scrap.heap.refactor.enums;
 public enum Material {
     NO_MATERIAL (""),
     MYLAR ("mylar"),
-    LATEXT ("latext");
+    LATEX("latext");
 
     private final String material;
 

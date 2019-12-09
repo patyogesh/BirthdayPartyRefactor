@@ -6,7 +6,7 @@ public class CakeColor extends Cake{
 
     private final Color color;
 
-    public CakeColor(Color color, Cake baseCake) {
+    public CakeColor(Cake baseCake, Color color) {
         super(baseCake);
         this.color = color;
     }
