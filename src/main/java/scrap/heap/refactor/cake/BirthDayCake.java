@@ -7,7 +7,7 @@ public class BirthDayCake extends Cake{
     }
 
     public BirthDayCake() {
-        this(new BirthDayCake());
+        this(new EmptyCake());
     }
 
     @Override

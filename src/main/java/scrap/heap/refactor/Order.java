@@ -29,6 +29,6 @@ public class Order {
     }
 
     public void addCake(Cake cake) {
-        this.addCake(cake);
+        this.cakes.add(cake);
     }
 }

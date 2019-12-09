@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="scrap.heap.refactor.balloon.BalloonMaterialTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-09T08:43:18" hostname="SF-US04044-MBP15.local" time="0.0">
+  <properties/>
+  <testcase name="getBalloonMaterialTest" classname="scrap.heap.refactor.balloon.BalloonMaterialTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

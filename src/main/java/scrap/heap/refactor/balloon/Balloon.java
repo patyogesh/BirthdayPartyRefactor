@@ -3,7 +3,7 @@ package scrap.heap.refactor.balloon;
 public abstract class Balloon {
     private final Balloon balloon;
 
-    public Balloon(Balloon balloon) {
+    public Balloon(final Balloon balloon) {
         this.balloon = balloon;
     }
 
