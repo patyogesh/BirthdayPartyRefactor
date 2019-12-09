@@ -2,6 +2,10 @@ package scrap.heap.refactor.cake;
 
 import scrap.heap.refactor.enums.*;
 
+/**
+ * CakeBuilder used Builder pattern to build Cake object.
+ */
+
 public class CakeBuilder {
 
     private Flavor flavor;
@@ -30,26 +34,41 @@ public class CakeBuilder {
         return color;
     }
 
+    /**
+     * @param flavor Cake flavor
+     */
     public CakeBuilder withFlavor(Flavor flavor) {
         this.flavor = flavor;
         return this;
     }
 
+    /**
+     * @param frostFlavor Cake frosting flavor
+     */
     public CakeBuilder withFrostFlavor(FrostFlavor frostFlavor) {
         this.frostFlavor = frostFlavor;
         return this;
     }
 
+    /**
+     * @param shape Cake shape
+     */
     public CakeBuilder withShape(Shape shape) {
         this.shape = shape;
         return this;
     }
 
+    /**
+     * @param size Cake size
+     */
     public CakeBuilder withSize(Size size) {
         this.size = size;
         return this;
     }
 
+    /**
+     * @param color Cake color
+     */
     public CakeBuilder withColor(Color color) {
         this.color = color;
         return this;

@@ -1,5 +1,9 @@
 package scrap.heap.refactor.cake;
 
+/**
+ * Cake is a abstract class.
+ * This serves as a base class for Cake.
+ */
 public abstract class Cake {
     private final Cake basecake;
 
