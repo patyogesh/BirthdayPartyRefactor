@@ -9,7 +9,8 @@ public class BalloonQuantity extends Balloon {
         this.quantity = quantity;
     }
 
-    public int getQuantity() {
-        return quantity;
+    @Override
+    public String getAttr() {
+        return String.valueOf(quantity);
     }
 }

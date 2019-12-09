@@ -11,7 +11,8 @@ public class CakeFrostFlavor extends Cake{
         this.frostFlavor = frostFlavor;
     }
 
-    public FrostFlavor getFrostFlavor() {
-        return frostFlavor;
+    @Override
+    public String getAttr() {
+        return frostFlavor.toString();
     }
 }

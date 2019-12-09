@@ -10,4 +10,6 @@ public abstract class Cake {
     public Cake getBasecake() {
         return basecake;
     }
+
+    public abstract String getAttr();
 }

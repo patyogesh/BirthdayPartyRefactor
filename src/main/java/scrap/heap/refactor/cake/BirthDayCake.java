@@ -9,4 +9,9 @@ public class BirthDayCake extends Cake{
     public BirthDayCake() {
         this(new BirthDayCake());
     }
+
+    @Override
+    public String getAttr() {
+        return "BirthDayCake";
+    }
 }

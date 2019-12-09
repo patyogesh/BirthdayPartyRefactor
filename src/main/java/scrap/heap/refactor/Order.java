@@ -11,6 +11,14 @@ public class Order {
     private List<Balloon> balloons;
     private List<Cake> cakes;
 
+    public List<Balloon> getBalloons() {
+        return balloons;
+    }
+
+    public List<Cake> getCakes() {
+        return cakes;
+    }
+
     public Order() {
         balloons = new LinkedList<>();
         cakes = new LinkedList<>();

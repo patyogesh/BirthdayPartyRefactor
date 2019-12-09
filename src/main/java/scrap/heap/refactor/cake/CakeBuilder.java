@@ -10,6 +10,26 @@ public class CakeBuilder {
     private Size size;
     private Color color;
 
+    public Flavor getFlavor() {
+        return flavor;
+    }
+
+    public FrostFlavor getFrostFlavor() {
+        return frostFlavor;
+    }
+
+    public Shape getShape() {
+        return shape;
+    }
+
+    public Size getSize() {
+        return size;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
     public CakeBuilder withFlavor(Flavor flavor) {
         this.flavor = flavor;
         return this;
@@ -46,4 +66,6 @@ public class CakeBuilder {
 
         return cake;
     }
+
+
 }

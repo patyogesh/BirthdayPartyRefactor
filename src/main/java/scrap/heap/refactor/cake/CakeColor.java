@@ -11,7 +11,8 @@ public class CakeColor extends Cake{
         this.color = color;
     }
 
-    public Color getColor() {
-        return color;
+    @Override
+    public String getAttr() {
+        return color.toString();
     }
 }

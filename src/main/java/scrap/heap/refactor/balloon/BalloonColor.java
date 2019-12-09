@@ -11,7 +11,8 @@ public class BalloonColor extends Balloon{
         this.color = color;
     }
 
-    public Color getColor() {
-        return color;
+    @Override
+    public String getAttr() {
+        return color.toString();
     }
 }

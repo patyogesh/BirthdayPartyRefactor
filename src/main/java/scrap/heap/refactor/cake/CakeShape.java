@@ -11,7 +11,8 @@ public class CakeShape extends Cake {
         this.shape = shape;
     }
 
-    public Shape getShape() {
-        return shape;
+    @Override
+    public String getAttr() {
+        return shape.toString();
     }
 }

@@ -10,4 +10,6 @@ public abstract class Balloon {
     public Balloon getBalloon() {
         return balloon;
     }
+
+    public abstract String getAttr();
 }

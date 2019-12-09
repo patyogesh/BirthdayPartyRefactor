@@ -11,7 +11,8 @@ public class CakeSize extends Cake {
         this.size = size;
     }
 
-    public Size getSize() {
-        return size;
+    @Override
+    public String getAttr() {
+        return size.toString();
     }
 }

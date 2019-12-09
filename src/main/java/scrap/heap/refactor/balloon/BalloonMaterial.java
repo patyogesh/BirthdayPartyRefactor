@@ -11,7 +11,8 @@ public class BalloonMaterial extends Balloon {
         this.material = material;
     }
 
-    public Material getMaterial() {
-        return material;
+    @Override
+    public String getAttr() {
+        return material.toString();
     }
 }
