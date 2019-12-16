@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="scrap.heap.refactor.cake.CakeFlavorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-09T08:58:13" hostname="SF-US04044-MBP15.local" time="0.0">
+  <properties/>
+  <testcase name="testGetFlavor" classname="scrap.heap.refactor.cake.CakeFlavorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
